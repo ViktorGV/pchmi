@@ -3,4 +3,4 @@
 - Петър: Cart
 - Ирина:
 - Юлиан: Reg + login
-- Виктор: delivery method/address
+- Виктор: delivery method + map
