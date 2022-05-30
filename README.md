@@ -2,5 +2,5 @@
 - Иво: Home
 - Петър: Cart
 - Ирина:
-- Юлиян:
+- Юлиан: Reg + login
 - Виктор: delivery method/address
