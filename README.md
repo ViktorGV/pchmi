@@ -1,6 +1,6 @@
 Работим по екрани:
 - Иво: Home
-- Петър: Card
+- Петър: Cart
 - Ирина:
 - Юлиян:
 - Виктор: delivery method/address
