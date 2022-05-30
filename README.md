@@ -3,4 +3,4 @@
 - Петър: Card
 - Ирина:
 - Юлиян:
-- Виктор:
+- Виктор: delivery method/address
