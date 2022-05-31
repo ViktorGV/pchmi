@@ -87,6 +87,13 @@ html, body {
     font-size: 2.5em;
 }
 
+h2 {
+    font-weight: normal;
+    color: 	#1E90FF;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 .main-footer {
     background-color: #56CCF2;
     color: white;
@@ -267,10 +274,38 @@ html, body {
     font-size: 1.1em;
 }
 
+.btn-reward {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.30em;
+}
+
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
 
-code { padding: 2px 4px; color: blue;  border-radius: 4px; }
+code { padding: 2px 4px; color: #1E90FF;  border-radius: 4px; }
+
+
+form.search_bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+  width: 300px;
+  background: #f1f1f1;
+}
+
+form.search_bar button:hover {
+  background: white;
+}
+
+form.search_bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
