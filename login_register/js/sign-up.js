@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
          signInError.classList.remove("active");
 
          console.log("successful sign in");
-         window.location.href = window.location.href.split("/Store/")[0] + "/create_order/map.html";
+         window.location.href = window.location.href.split("/login_register/")[0] + "/Store/store.html";
       }
     });
  });
