@@ -24,10 +24,30 @@ function ready() {
     }
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+    document.getElementsByClassName('profile-nav-link')[0].addEventListener('click', navigateToProfile)
+    document.getElementsByClassName('about-nav-link')[0].addEventListener('click', navigateToAbout)
+    document.getElementsByClassName('sign-out-nav-link')[0].addEventListener('click', signOut)
+
+}
+
+function getBaseUrl() {
+    return window.location.href.split("/Store/")[0].toString();
+}
+
+function navigateToProfile() {
+    window.location.href = getBaseUrl() + "/profile/profile.html";
+}
+
+function navigateToAbout() {
+    window.location.href = getBaseUrl() + "/About/about.html";
+}
+
+function signOut() {
+    window.location.href = getBaseUrl() + "/login_register/html/sign-up.html";
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
+    window.location.href = getBaseUrl() + "/create_order/map.html";
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
