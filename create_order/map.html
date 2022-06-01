@@ -10,17 +10,25 @@
 </head>
 
 <body>
-    <nav id="nav-bar" class=navbar>
-        <h1>E-Market</h1>
-        <a href="register.html">
-            <button type="button" class="btn">Sign Out</button>
-        </a>
-    </nav>
+    <header class="main-header">
+        <h1 class="brand-name brand-name-large"><code>E</code>Market</h1>
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="">#1</a></li>
+                <li><a href="">#2</a></li>
+                <li><a href="">#3</a></li>
+                <li><a href="">#4</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <img src="map.png" alt="Italian Trulli" width="400" height="400" class="center">
 
     <main>
         <input type="input" class="form__field" placeholder="Your Address" name="address" id='address' required />
         <label for="address" class="form__label"></label>
+        <p></p>
 
         <p>Do you need an invoice?</p>
         <label>Yes
@@ -31,7 +39,44 @@
             <input type="radio" name="no" />
             <span></span>
         </label>
+        <p></p>
+        <p>?</p>
+        <label>Pick up
+            <input type="radio" name="yes" checked />
+            <span></span>
+        </label>
+        <label>Delivery
+            <input type="radio" name="no" />
+            <span></span>
+        </label>
+
+        <button type="button" class="btn">Submit</button>
+    </br>
     </main>
+
+        
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="brand-name"><code>E</code>Market</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="../Store/Images/Socials/Youtube Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com" target="_blank">
+                        <img src="../Store/Images/Socials/Spotify Logo.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="../Store/Images/Socials/Facebook Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
