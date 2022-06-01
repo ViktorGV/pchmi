@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map</title>
     <link rel="stylesheet" href="map.css">
+    <script src="map.js" async></script>
 </head>
 
 <body>
     <script>
-        function call(){
+        function onSubmit(){
             window.alert("Purchase is completed successfully!");
         }
     </script>
@@ -19,9 +20,15 @@
     <header class="main-header">
         <h1 class="brand-name brand-name-large"><code>E</code>Market</h1>
         <nav class="main-nav nav">
-
+            <ul>
+                <li><a href="javascript:void(0)" class ="store-nav-link">Store</a></li>
+                <li><a href="javascript:void(0)" class="profile-nav-link">Profile</a></li>
+                <li><a href="javascript:void(0)" class="about-nav-link">About</a></li>
+                <li><a href="javascript:void(0)" class="sign-out-nav-link">Sign Out</a></li>
+            </ul>
         </nav>
     </header>
+
     <img src="map.png" alt="Italian Trulli" width="400" height="400" class="center">
 
     <main>
@@ -49,7 +56,7 @@
             <span></span>
         </label>
         <p></p>
-        <button type="button" class="btn" onclick="call()">Submit</button>
+        <button type="button" class="btn" onclick="onSubmit()">Submit</button>
         <p></p>
     </br>
     </main>
