@@ -1,5 +1,5 @@
 Работим по екрани:
-- Иво: Home + Cart
+- Иво: Home + Cart + About
 - Петър: Home + Cart
 - Ирина: Settings + Profile
 - Юлиан: Reg + login
